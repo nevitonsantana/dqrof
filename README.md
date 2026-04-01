@@ -2,12 +2,14 @@
 **Decision Layer for AI Systems**  
 _From output to decision_
 
+---
+
 ## Tese
 
 Modelos de IA geram respostas.  
 Não estruturam decisão.
 
-AletheIA define uma camada entre **output e ação**, organizando contexto, interpretação e decisão de forma explicável, rastreável e controlada.
+AletheIA define uma camada entre **output e execução**, organizando contexto, interpretação, validação e decisão de forma explicável, rastreável e controlada.
 
 ---
 
@@ -15,27 +17,39 @@ AletheIA define uma camada entre **output e ação**, organizando contexto, inte
 
 Uma decision layer para sistemas baseados em IA.
 
-AletheIA estrutura como decisões são formadas a partir de:
+AletheIA estrutura o desenvolvimento de aplicações com IA — especialmente em fluxos de **vibe coding** e **agentic systems** — reduzindo improviso, retrabalho e risco operacional.
 
-- sinais (inputs, dados, eventos)
-- contexto (histórico, ambiente, restrições)
-- interpretação (modelos, heurísticas, regras)
-- justificativa (explicabilidade)
-- decisão (ação recomendada ou tomada)
+O framework organiza como decisões são formadas antes da execução, incluindo:
+
+- seleção e uso de contexto  
+- definição de spec e execution contracts  
+- orquestração de runtimes  
+- validação multicamada  
+- policy enforcement  
+- loops de aprendizado  
+- portabilidade entre modelos e agentes  
 
 ---
 
 ## Problema
 
-Sistemas de IA hoje:
+Fluxos de desenvolvimento com IA hoje falham não por falta de geração, mas por falta de estrutura de decisão.
 
-- geram respostas sem contexto suficiente  
-- não explicitam por que decidiram algo  
-- não mantêm memória consistente  
-- não oferecem rastreabilidade  
-- misturam análise com decisão sem controle  
+Sistemas típicos:
 
-Resultado: decisões frágeis, difíceis de confiar e auditar.
+- executam diretamente outputs de modelos  
+- não explicitam por que algo foi executado  
+- não controlam contexto de forma consistente  
+- não possuem validação antes da ação  
+- não mantêm memória confiável  
+- não permitem auditoria real  
+
+Resultado:
+
+- comportamento imprevisível  
+- retrabalho constante  
+- dificuldade de escalar  
+- risco operacional elevado  
 
 ---
 
@@ -43,67 +57,92 @@ Resultado: decisões frágeis, difíceis de confiar e auditar.
 
 AletheIA organiza o fluxo:
 
-Signal → Context → Interpretation → Decision → Action
+Signal → Context → Interpretation → Decision → Execution
 
 E define uma camada explícita entre:
 
-Model Output → Decision
+Model Output → Execution
+
+Essa camada transforma resposta em **ação governada**.
 
 ---
 
 ## Princípios
 
-- IA sugere. Decisão é estruturada.
-- Toda decisão deve ser explicável.
-- Toda ação deve ser rastreável.
-- Contexto precede interpretação.
-- Controle antes de automação.
+- IA sugere. O sistema decide como executar.  
+- Toda decisão deve ser explicável.  
+- Toda ação deve ser rastreável.  
+- Contexto mínimo suficiente.  
+- Segurança antes de automação.  
+- Portabilidade antes de dependência de runtime.  
 
 ---
 
 ## Arquitetura (alto nível)
 
-/engine
-compiler/      → estrutura inputs em artefatos de decisão
-policy/        → regras, limites e governança
-simulator/     → cenários e validação
-runtime/       → execução em tempo real
-debugger/      → inspeção e rastreabilidade
+/engine  
+  compiler/      → estrutura inputs em artefatos de decisão  
+  policy/        → regras, limites e governança  
+  simulator/     → cenários e validação  
+  runtime/       → execução controlada  
+  debugger/      → inspeção e rastreabilidade  
 
-/adapters
-codex/
-claude/
-goose/
+/adapters  
+  codex/  
+  claude/  
+  goose/  
 
-/schemas
-decision.schema.json
+/schemas  
+  decision.schema.json  
 
-/starter-pack
-docs/
-features/
-evals/
-playbooks/
+/starter-pack  
+  docs/  
+  features/  
+  evals/  
+  playbooks/  
+
+---
+
+## Componentes
+
+**Compiler**  
+Transforma inputs, contexto e intenções em estruturas formais de decisão.
+
+**Policy Layer**  
+Define regras de execução, limites e guardrails.
+
+**Runtime**  
+Executa decisões com controle e observabilidade.
+
+**Simulator**  
+Permite testar cenários antes da execução real.
+
+**Debugger**  
+Permite entender decisões após execução.
+
+**Adapters**  
+Integra com diferentes runtimes (Codex, Claude, agentes locais, etc.).
 
 ---
 
 ## O que este repositório entrega
 
-- Estrutura base da decision layer
-- Schema de decisão (alpha)
-- DSL inicial
-- Simulações de cenários
-- Pseudo-engine para implementação
-- Estratégias de memória e runtime
-- Starter pack de projeto
+- Estrutura base da decision layer  
+- Schema de decisão (alpha)  
+- DSL inicial para modelagem  
+- Simulações de cenários  
+- Pseudo-engine para implementação  
+- Estratégias de memória e runtime  
+- Starter pack para projetos  
 
 ---
 
 ## O que não está aqui
 
-- Interface final
-- integrações completas
-- datasets proprietários
-- modelos treinados específicos
+- UI final  
+- integrações completas com APIs externas  
+- datasets proprietários  
+- modelos treinados específicos  
 
 Este projeto define **como decisões são estruturadas**, não apenas executadas.
 
@@ -111,11 +150,39 @@ Este projeto define **como decisões são estruturadas**, não apenas executadas
 
 ## Casos de uso
 
-- sistemas multi-agente
-- copilotos e assistentes avançados
-- workflows críticos com IA
-- ambientes que exigem auditabilidade
-- tomada de decisão sob incerteza
+- desenvolvimento de aplicações com IA  
+- sistemas multi-agente  
+- copilotos e assistentes avançados  
+- workflows críticos com IA  
+- automações com necessidade de governança  
+- ambientes com exigência de auditabilidade  
+
+---
+
+## Como usar
+
+1. Explore `/starter-pack`  
+2. Entenda `/schemas`  
+3. Implemente `/engine`  
+4. Rode `/simulator`  
+5. Integre via `/adapters`  
+
+---
+
+## Estrutura conceitual
+
+AletheIA atua como uma camada entre:
+
+Model → Decision → Execution
+
+Separando:
+
+- geração  
+- interpretação  
+- decisão  
+- execução  
+
+Essa separação reduz acoplamento e aumenta controle.
 
 ---
 
@@ -123,19 +190,35 @@ Este projeto define **como decisões são estruturadas**, não apenas executadas
 
 Alpha — foco em:
 
-- coerência do modelo
-- estrutura da decision layer
-- base para implementação
+- coerência do modelo  
+- estrutura da decision layer  
+- base para implementação  
+
+Ainda não otimizado para produção.
 
 ---
 
-## Como usar
+## Roadmap
 
-1. Explore `/starter-pack`
-2. Entenda `/schemas`
-3. Implemente `/engine`
-4. Rode `/simulator`
-5. Integre via `/adapters`
+Curto prazo:
+
+- consolidar schema de decisão  
+- estruturar runtime mínimo  
+- melhorar simulador  
+- definir contratos de execução  
+
+Médio prazo:
+
+- suporte robusto a multi-agentes  
+- taxonomia de decisões  
+- validação automática mais forte  
+- integração com mais runtimes  
+
+Longo prazo:
+
+- especialização por domínio  
+- aprendizado baseado em execução  
+- evolução para camada padrão em sistemas de IA  
 
 ---
 
@@ -145,9 +228,9 @@ Este projeto não compete por melhores respostas.
 
 Ele compete por:
 
-- melhores decisões
-- decisões explicáveis
-- decisões confiáveis
+- melhores decisões  
+- decisões explicáveis  
+- decisões confiáveis  
 
 ---
 
@@ -160,4 +243,4 @@ Apache 2.0
 ## Nota final
 
 IA responde.  
-AletheIA decide como decidir.
+AletheIA estrutura como sistemas decidem.
