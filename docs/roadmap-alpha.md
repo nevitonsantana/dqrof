@@ -31,6 +31,6 @@ Focus:
 
 Includes:
 - better onboarding
-- contribution docs
-- public release hygiene
-- stronger extraction from pilot-specific materials
+- stronger contributor guidance
+- tighter release hygiene
+- less pilot-specific residue in the public docs

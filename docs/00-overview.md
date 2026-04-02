@@ -2,7 +2,7 @@
 
 AletheIA is an operating framework for AI-assisted work with a decision kernel at its center.
 
-The public repository is organized around three big blocks:
+The public repository is organized around three blocks:
 
 1. **framework core**
    - contracts
@@ -15,7 +15,7 @@ The public repository is organized around three big blocks:
    - reusable operating guides
    - checklists
    - templates
-   - branch/context/quality discipline
+   - branch, context, and quality discipline
 
 3. **pilot materials**
    - why the framework emerged
@@ -24,4 +24,4 @@ The public repository is organized around three big blocks:
 
 The key idea is simple:
 
-AletheIA should be reusable outside the original pilot, while still preserving the lessons learned from that pilot.
+AletheIA should be reusable outside the original pilot while still preserving the lessons learned from that pilot.

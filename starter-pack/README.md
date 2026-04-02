@@ -11,3 +11,5 @@ The goal is to provide a practical baseline for:
 - handoffs
 - branch isolation
 - quality gates
+
+Start here if you want the operating method around the framework, not only the technical core.

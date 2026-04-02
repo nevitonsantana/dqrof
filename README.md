@@ -16,7 +16,7 @@ Many AI workflows still follow a fragile pattern:
 
 `prompt -> output -> execution`
 
-That is fast, but often weak in:
+That can be fast, but it is often weak in:
 
 - traceability
 - scope control
@@ -26,7 +26,7 @@ That is fast, but often weak in:
 
 AletheIA introduces an explicit operating layer between output and action.
 
-Its goal is not to slow teams down.
+Its goal is not to slow teams down for the sake of ceremony.
 
 Its goal is to make AI-assisted work:
 
@@ -76,14 +76,14 @@ This means the framework helps answer questions such as:
 
 ---
 
-## What the first public alpha should prove
+## What the first public alpha proves
 
-The first public alpha should prove that:
+The current public alpha is meant to prove that:
 
 - an input can become a structured decision
 - governance can block unsafe or poorly framed closure
 - failed validation can generate reusable learnings
-- the framework remains small, inspectable, and deterministic
+- the framework can stay small, inspectable, and deterministic
 - the core can be reused outside its original pilot project
 
 ---
@@ -108,7 +108,7 @@ The alpha starts with a few small examples that make the framework tangible:
 - `low-confidence-review` — when ambiguity should stop direct execution
 - `high-risk-human-gate` — when risk requires explicit human approval
 - `learning-from-failed-validation` — when failed closure should also produce reusable learning
-- `governance` — process-oriented rule evaluation using facts + policy pack
+- `governance` — process-oriented rule evaluation using facts and a policy pack
 
 ---
 
@@ -125,18 +125,18 @@ The alpha starts with a few small examples that make the framework tangible:
 
 ## Current status
 
-This repository is being prepared as the first public alpha of AletheIA.
+This repository is the first public alpha draft of AletheIA.
 
-It was born from real operational work inside the `Crisis Monitor` project and is now being extracted into a standalone reusable framework.
+It was born from real operational work inside the `Crisis Monitor` project and then extracted into a standalone reusable framework.
 
-Right now, the public draft already contains:
+Today, this public draft already contains:
 
-- the first core contracts
+- core contracts
 - a minimal kernel
 - a governance pack
 - a quality baseline
 - a first learnings path
-- a portable draft structure outside the original project
+- a reusable starter-pack slice
 
 ---
 
@@ -149,14 +149,15 @@ If this is your first time here, start with:
 3. `docs/governance.md`
 4. `docs/quality.md`
 5. `examples/`
+6. `starter-pack/`
 
 ---
 
-## Public alpha direction
+## Near-term direction
 
-The next milestones are:
+The next steps are:
 
-- refine the public narrative
-- complete the core extraction
-- decide how the starter-pack will enter the public repo
-- publish the first standalone alpha
+- keep polishing the public narrative
+- strengthen the starter-pack carefully
+- tighten release quality
+- evolve this alpha into a more complete standalone public release
