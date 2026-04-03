@@ -20,4 +20,5 @@ Start here if you want the operating method around the framework, not only the t
 
 If you are starting from an existing repository rather than a blank setup, read:
 
+- `docs/getting-started.md`
 - `docs/apply-to-existing-project.md`
