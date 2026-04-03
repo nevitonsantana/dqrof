@@ -175,6 +175,7 @@ The next steps are:
 - keep converting pilot learnings into framework improvements
 - keep using AletheIA to improve AletheIA itself
 - begin the first Alpha 3 adoption artifacts without losing the core/pilot discipline
+- define the future Alpha 4 direction for orchestrated handoffs between agents
 
 ---
 
@@ -186,7 +187,6 @@ The first explicit bridge into Alpha 2 is:
 - `docs/pilot-crisis-monitor.md`
 - `docs/pilot-conversion.md`
 - `docs/project-extension-pattern.md`
-- `docs/apply-to-existing-project.md`
 
 Together, these documents explain how AletheIA should evolve itself, learn from pilots, and preserve a clear boundary between framework core and local project extensions.
 

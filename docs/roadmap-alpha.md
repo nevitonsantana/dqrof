@@ -132,6 +132,48 @@ AletheIA should become easier to:
 
 ---
 
+## Alpha 4 — Orchestrated Handoffs & Multi-Agent Continuity
+
+Focus:
+- make handoffs between agents explicit, reusable, and increasingly automatable
+
+Includes:
+- structured inter-agent handoff contracts
+- handoff generation patterns from real work items
+- clearer separation between human-facing summaries and agent-facing restart packages
+- stronger continuity between Codex, Claude Code, and other agent contexts
+- starter-pack guidance for cross-agent execution flows
+- reusable patterns for passing scope, validation, risks, and next action across agents
+
+### What Alpha 4 must prove
+
+By the end of Alpha 4, AletheIA should already show that:
+
+- handoffs can be produced as compact restart packages instead of ad-hoc prompts
+- one agent can stop at its boundary and prepare the next agent's work clearly
+- cross-agent continuity can happen without relying on hidden thread memory
+- handoff artifacts can be generated in a repeatable way from real project work
+
+### Notes
+
+Alpha 4 is not about adding more agents for their own sake.
+It is about making agent boundaries safer and more productive.
+
+The key move in Alpha 4 is turning:
+
+`work in one agent -> explicit handoff artifact -> reliable continuation in another agent`
+
+into a reusable operating pattern.
+
+Potential first artifacts for this phase may include:
+
+- handoff generation guidance
+- agent-facing handoff templates
+- project-level handoff conventions
+- automated or semi-automated handoff creation from completed work items
+
+---
+
 ## Cross-Alpha principles
 
 Across all three alphas, AletheIA should preserve a few boundaries:
@@ -153,3 +195,4 @@ Across all three alphas, AletheIA should preserve a few boundaries:
 2. keep the Alpha 2 bridge coherent while adoption grows
 3. continue validating the Crisis Monitor pilot and nearby real slices
 4. convert pilot learnings into framework updates
+5. shape Alpha 4 around orchestrated handoffs and cross-agent continuity

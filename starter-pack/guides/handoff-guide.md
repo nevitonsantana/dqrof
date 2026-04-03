@@ -22,3 +22,13 @@ It is a compact restart package.
 - blocked decisions
 - missing approvals
 - learnings that change the next step
+
+
+## Future evolution
+
+AletheIA should eventually distinguish more clearly between:
+
+- a human-facing summary
+- an agent-facing restart package
+
+That distinction becomes important when work moves from one agent to another and the next agent needs a compact, structured continuation artifact rather than a long narrative recap.
