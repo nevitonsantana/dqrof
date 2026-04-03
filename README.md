@@ -149,20 +149,21 @@ Today, this public draft already contains:
 
 If this is your first time here, start with:
 
-1. `docs/00-overview.md`
-2. `docs/architecture.md`
-3. `docs/governance.md`
-4. `docs/token-policy.md`
-5. `docs/durable-decisions.md`
-6. `docs/enforcement-boundaries.md`
-7. `docs/quality.md`
-8. `docs/self-application.md`
-9. `docs/pilot-crisis-monitor.md`
-10. `docs/pilot-conversion.md`
-11. `docs/project-extension-pattern.md`
-12. `docs/apply-to-existing-project.md`
-13. `examples/`
-14. `starter-pack/`
+1. `docs/getting-started.md`
+2. `docs/00-overview.md`
+3. `docs/architecture.md`
+4. `docs/governance.md`
+5. `docs/token-policy.md`
+6. `docs/durable-decisions.md`
+7. `docs/enforcement-boundaries.md`
+8. `docs/quality.md`
+9. `docs/self-application.md`
+10. `docs/pilot-crisis-monitor.md`
+11. `docs/pilot-conversion.md`
+12. `docs/project-extension-pattern.md`
+13. `docs/apply-to-existing-project.md`
+14. `examples/`
+15. `starter-pack/`
 
 ---
 
@@ -174,7 +175,7 @@ The next steps are:
 - keep validating the Crisis Monitor pilot and adjacent real slices
 - keep converting pilot learnings into framework improvements
 - keep using AletheIA to improve AletheIA itself
-- begin the first Alpha 3 adoption artifacts without losing the core/pilot discipline
+- keep opening Alpha 3 adoption artifacts without losing the core/pilot discipline
 - define the future Alpha 4 direction for orchestrated, model-agnostic handoffs between agents
 
 ---

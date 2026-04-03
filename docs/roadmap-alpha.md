@@ -101,6 +101,7 @@ Focus:
 
 Includes:
 - better onboarding
+- a clearer getting-started path
 - stronger contributor guidance
 - stronger starter-pack
 - clearer guidance for applying AletheIA in an existing project
@@ -194,6 +195,7 @@ Across all three alphas, AletheIA should preserve a few boundaries:
 1. open the first Alpha 3 adoption artifacts
    - applying AletheIA to an existing project
    - stronger onboarding path
+   - explicit getting-started guide
 2. keep the Alpha 2 bridge coherent while adoption grows
 3. continue validating the Crisis Monitor pilot and nearby real slices
 4. convert pilot learnings into framework updates
