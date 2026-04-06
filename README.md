@@ -172,8 +172,10 @@ If this is your first time here, start with:
 15. `starter-pack/`
 16. `starter-pack/templates/project-extension-template.md`
 17. `docs/agent-handoffs.md`
-18. `starter-pack/templates/agent-handoff-template.md`
-19. `examples/`
+18. `starter-pack/guides/agent-handoff-generation.md`
+19. `starter-pack/templates/agent-handoff-template.md`
+20. `docs/project-handoff-conventions.md`
+21. `examples/`
 
 ---
 
@@ -220,7 +222,9 @@ The current Alpha 3 adoption baseline after this bridge is:
 The first Alpha 4 handoff baseline now adds:
 
 - `docs/agent-handoffs.md`
+- `starter-pack/guides/agent-handoff-generation.md`
 - `starter-pack/templates/agent-handoff-template.md`
+- `docs/project-handoff-conventions.md`
 
 ---
 

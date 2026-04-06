@@ -176,7 +176,7 @@ Current Alpha 4 baseline artifacts now include:
 
 Next artifacts for this phase may include:
 
-- project-level handoff conventions
+- `docs/project-handoff-conventions.md`
 - automated or semi-automated handoff creation from completed work items
 - execution-scope fields such as allowed files, forbidden files, allowed data, semantic guardrails, acceptance criteria, and expected response format
 
