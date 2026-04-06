@@ -257,14 +257,27 @@ The next future-facing phases should stay clearly separated by role:
 - **Alpha 6** — distribution, presets, and adapters for packaging the same framework meaning across environments
 - **Alpha 7** — optional bootstrap and delivery tooling after the distribution model is already stable
 
-These future phases are about extending AletheIA's reach and delivery discipline.
+A separate future track will also shape reusable domain governance packs.
+The first planned packs in that track are:
+
+- **Web App Security & Trust Boundaries Pack**
+- **AI Agent Security & Prompt Injection Pack**
+
+These future phases and domain packs are about extending AletheIA's reach and delivery discipline.
 They are not about redefining the framework core.
+
+The domain packs should sit between the reusable framework core and project-local rules:
+
+`AletheIA core -> domain governance pack -> project extension`
 
 See also:
 
 - `docs/structured-risk-inference.md`
 - `starter-pack/templates/inference-artifact-template.md`
 - `docs/distribution-presets-adapters.md`
+- `docs/domain-governance-packs.md`
+- `docs/web-app-security-trust-boundaries.md`
+- `docs/ai-agent-security-prompt-injection.md`
 
 ---
 

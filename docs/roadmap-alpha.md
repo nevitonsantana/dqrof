@@ -297,6 +297,51 @@ It should remain:
 
 ---
 
+## Future Track — Reusable Domain Governance Packs
+
+Focus:
+- make recurring domain-specific governance reusable without inflating the AletheIA core
+
+This future track exists for governance patterns that are:
+
+- too domain-specific to live in the framework core
+- too reusable to remain only as project-local rules
+- worth documenting as reusable operating discipline before any heavier automation appears
+
+This is not a new Alpha right now.
+It is a future track for reusable domain governance layers that sit between the framework core and each project's local extension.
+
+The intended layer is:
+
+`AletheIA core -> domain governance pack -> project extension`
+
+The first planned packs in this track are:
+
+- `Web App Security & Trust Boundaries Pack`
+- `AI Agent Security & Prompt Injection Pack`
+
+This future track connects to the existing phases in specific ways:
+
+- Alpha 1 provides the generic governance baseline and core security-adjacent rules
+- Alpha 3 opens the path for reusable domain governance packs beyond the core
+- Alpha 4 contributes execution boundaries, handoffs, and semantic guardrails
+- Alpha 5 may later strengthen higher-risk decisions inside these packs through selective structured inference
+
+Current direction for this track is documented in:
+
+- `docs/domain-governance-packs.md`
+- `docs/web-app-security-trust-boundaries.md`
+- `docs/ai-agent-security-prompt-injection.md`
+
+This future track should not:
+
+- redefine the kernel or policy core
+- collapse vendor-specific guidance into framework truth
+- turn project-local rules into universal enforcement by accident
+- pretend these packs are already active policies in the framework
+
+---
+
 ## Cross-Alpha principles
 
 Across all phases, AletheIA should preserve a few boundaries:
