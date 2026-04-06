@@ -217,7 +217,7 @@ The key move in Alpha 5 is inserting a conditional step such as:
 
 This phase should begin as an experimental capability, not a mandatory step for every workflow.
 
-Potential first artifacts for this phase may include:
+Current Alpha 5 baseline artifacts now include:
 
 - `docs/structured-risk-inference.md`
 - `starter-pack/templates/inference-artifact-template.md`
@@ -359,21 +359,28 @@ Across all phases, AletheIA should preserve a few boundaries:
 
 ## Near-term priority order
 
-1. consolidate the current Alpha 4 handoff baseline
+1. consolidate the current Alpha 5 inference baseline
+   - concept doc
+   - inference template
+   - trigger guidance
+   - generation guide
+   - pilot scenarios
+   - alignment with Alpha 4 handoffs and Alpha 3 adoption assets
+2. keep the current Alpha 4 handoff baseline coherent
    - concept doc
    - generation guide
    - handoff template
    - project-level conventions
    - handoff capture pattern
-   - alignment with Alpha 3 adoption assets
-2. keep the current Alpha 3 adoption baseline coherent
+3. keep the current Alpha 3 adoption baseline coherent
    - getting started
    - existing-project application
    - contributor guidance
    - project extension template
-3. keep the Alpha 2 bridge coherent while adoption grows
-4. continue validating the Crisis Monitor pilot and nearby real slices
-5. convert pilot learnings into framework updates
-6. keep Alpha 5 framed as experimental structured risk inference rather than strong formal verification
-7. shape Alpha 6 as a future distribution layer without distorting the framework core
-8. keep Alpha 7 as a later tooling/bootstrap follow-up, not a near-term promise
+4. keep the Alpha 2 bridge coherent while adoption grows
+5. continue validating the Crisis Monitor pilot and nearby real slices
+6. convert pilot learnings into framework updates
+7. keep Alpha 5 framed as experimental structured risk inference rather than strong formal verification
+8. shape Alpha 6 as a future distribution layer without distorting the framework core
+9. keep Alpha 7 as a later tooling/bootstrap follow-up, not a near-term promise
+10. shape future domain governance packs as reusable layers without moving them into the framework core

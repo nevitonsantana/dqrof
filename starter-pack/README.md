@@ -45,9 +45,9 @@ The current practical Alpha 4 handoff baseline now includes:
 Use this set when you need model-agnostic continuity between agents without relying on hidden thread memory.
 
 
-## Alpha 5 preview
+## Alpha 5 baseline
 
-If you are exploring structured risk inference for higher-risk work, read:
+If you are exploring the current Alpha 5 structured-risk-inference baseline for higher-risk work, read:
 
 - `docs/structured-risk-inference.md`
 - `starter-pack/templates/inference-artifact-template.md`
