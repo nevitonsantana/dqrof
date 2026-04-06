@@ -48,3 +48,7 @@ The first practical Alpha 4 handoff baseline now includes:
 - `starter-pack/templates/agent-handoff-template.md`
 
 Use these when you need model-agnostic continuity between agents without relying on hidden thread memory.
+
+For local repo conventions that sit on top of the shared handoff structure, also read:
+
+- `docs/project-handoff-conventions.md`
