@@ -168,6 +168,7 @@ In practical terms, that currently includes:
 - a quality baseline
 - a first learnings path
 - a reusable starter-pack slice
+- an advisory-only model-strategy guidance slice for task shape, capability profile, reasoning depth, and trust / hosting fit
 - a first structured risk inference slice
 - concrete example artifacts for bounded semantic-risk scenarios
 - a first concrete distribution baseline for packaging shape, delivery surface, adoption depth, and meaning preservation across surfaces
@@ -185,35 +186,38 @@ If this is your first time here, start with:
 3. `docs/architecture.md`
 4. `docs/governance.md`
 5. `docs/token-policy.md`
-6. `docs/durable-decisions.md`
-7. `docs/enforcement-boundaries.md`
-8. `docs/quality.md`
-9. `docs/self-application.md`
-10. `docs/pilot-crisis-monitor.md`
-11. `docs/pilot-conversion.md`
-12. `docs/project-extension-pattern.md`
-13. `docs/apply-to-existing-project.md`
-14. `CONTRIBUTING.md`
-15. `starter-pack/`
-16. `starter-pack/templates/project-extension-template.md`
-17. `docs/agent-handoffs.md`
-18. `starter-pack/guides/agent-handoff-generation.md`
-19. `starter-pack/templates/agent-handoff-template.md`
-20. `docs/project-handoff-conventions.md`
-21. `docs/handoff-capture-pattern.md`
-22. `docs/work-slice-pattern.md`
-23. `starter-pack/templates/work-slice-template.md`
-24. `starter-pack/guides/risk-to-gate-mapping.md`
-25. `docs/structured-risk-inference.md`
-26. `starter-pack/templates/inference-artifact-template.md`
-27. `starter-pack/guides/inference-trigger-guidance.md`
-28. `starter-pack/guides/inference-artifact-generation.md`
-29. `docs/inference-pilot-scenarios.md`
-30. `examples/work-slices/standard-slice/README.md`
-31. `examples/handoffs/compact-reviewable-handoff.md`
-32. `examples/handoffs/high-stakes-handoff.md`
-33. `examples/structured-risk-inference/README.md`
-34. `examples/`
+6. `starter-pack/guides/model-strategy-by-task.md`
+7. `docs/durable-decisions.md`
+8. `docs/enforcement-boundaries.md`
+9. `docs/quality.md`
+10. `docs/self-application.md`
+11. `docs/pilot-crisis-monitor.md`
+12. `docs/pilot-conversion.md`
+13. `docs/project-extension-pattern.md`
+14. `docs/apply-to-existing-project.md`
+15. `CONTRIBUTING.md`
+16. `starter-pack/`
+17. `starter-pack/templates/project-extension-template.md`
+18. `starter-pack/templates/project-model-strategy-template.md`
+19. `docs/agent-handoffs.md`
+20. `starter-pack/guides/agent-handoff-generation.md`
+21. `starter-pack/templates/agent-handoff-template.md`
+22. `docs/project-handoff-conventions.md`
+23. `docs/handoff-capture-pattern.md`
+24. `docs/work-slice-pattern.md`
+25. `starter-pack/templates/work-slice-template.md`
+26. `starter-pack/guides/risk-to-gate-mapping.md`
+27. `docs/structured-risk-inference.md`
+28. `starter-pack/templates/inference-artifact-template.md`
+29. `starter-pack/guides/inference-trigger-guidance.md`
+30. `starter-pack/guides/inference-artifact-generation.md`
+31. `docs/inference-pilot-scenarios.md`
+32. `examples/work-slices/standard-slice/README.md`
+33. `examples/handoffs/compact-reviewable-handoff.md`
+34. `examples/handoffs/high-stakes-handoff.md`
+35. `examples/structured-risk-inference/README.md`
+36. `examples/model-strategy/README.md`
+37. `examples/`
 
 ---
 

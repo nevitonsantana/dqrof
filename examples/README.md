@@ -27,6 +27,8 @@ Se os schemas explicam **a estrutura** e os docs explicam **a lógica**, os exem
   - mostra como task brief, decision, execution, handoff e learning podem compor uma unidade operacional
 - `structured-risk-inference/`
   - mostra exemplos concretos de inference artifacts para risco de refactor e handoff de alto impacto
+- `model-strategy/`
+  - mostra routing provider-agnostic e um profile local ilustrativo para fleets mistos de modelos
 
 ---
 
@@ -55,3 +57,4 @@ O alpha agora já cobre:
 - risk-to-gate posture examples
 - optional filesystem-context-routing experimentation
 - examples of structured risk inference for bounded semantic-risk scenarios
+- advisory-only model-strategy examples for task-to-model-fit guidance
