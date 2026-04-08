@@ -59,6 +59,7 @@ This includes things such as:
 - branch conventions for a given team
 - domain terminology
 - provider choices
+- local model strategy profiles tied to the available fleet, budget, and hosting posture
 - local handoff patterns
 - risk policies that depend on the project context
 
@@ -117,11 +118,33 @@ Examples:
 - local file ownership agreements between Codex and Claude
 - domain thread labels used by one team
 - provider-specific trust rules
+- project-local model routing defaults and override notes
 - local merge conventions tied to a repo or org
 
 These can still be rigorous.
 
 They just should not be mistaken for universal framework truth.
+
+---
+
+## Model strategy profiles are usually local
+
+A project-local model strategy profile is a good example of an extension artifact.
+
+It usually depends on:
+
+- which models the team actually has
+- which models are self-hosted or externally hosted
+- what kind of context may leave the trust boundary
+- budget ceilings and latency tolerance
+- tool support in the local workflow
+
+That is why AletheIA should teach the pattern without turning one project's model stack into framework truth.
+
+See:
+
+- `starter-pack/guides/model-strategy-by-task.md`
+- `starter-pack/templates/project-model-strategy-template.md`
 
 ---
 
