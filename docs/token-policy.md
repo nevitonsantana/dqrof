@@ -223,6 +223,18 @@ Oversized context is not only inefficient; it also makes decision quality harder
 
 ---
 
+## Relationship to model strategy
+
+Token policy and model strategy are related, but they are not the same thing.
+
+- `docs/token-policy.md` answers: **how much context and cost expansion is justified?**
+- `starter-pack/guides/model-strategy-by-task.md` answers: **what kind of model fit and reasoning depth are proportional to this task?**
+
+Both layers should reinforce each other.
+Neither one should silently replace the other.
+
+---
+
 ## Relationship to the rest of AletheIA
 
 This policy connects directly to:

@@ -12,6 +12,7 @@ The goal is to provide a practical baseline for:
 - branch isolation
 - quality gates
 - durable decisions
+- advisory model-strategy guidance
 
 Start here if you want the operating method around the framework, not only the technical core.
 
@@ -55,6 +56,17 @@ If you are exploring the current Alpha 5 structured-risk-inference baseline for 
 - `starter-pack/guides/inference-artifact-generation.md`
 - `docs/inference-pilot-scenarios.md`
 
+
+## Model strategy guidance
+
+If you want practical guidance for matching task shape, capability profile, reasoning depth, and trust / hosting constraints, read:
+
+- `starter-pack/guides/model-strategy-by-task.md`
+- `starter-pack/templates/project-model-strategy-template.md`
+- `examples/model-strategy/README.md`
+
+This guidance is advisory-only.
+AletheIA may suggest a fit, but the user may still choose a different model.
 
 ## Current operational-composition baseline
 
