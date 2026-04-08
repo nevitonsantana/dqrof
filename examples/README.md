@@ -27,6 +27,8 @@ Se os schemas explicam **a estrutura** e os docs explicam **a lógica**, os exem
   - mostra como task brief, decision, execution, handoff e learning podem compor uma unidade operacional
 - `structured-risk-inference/`
   - mostra exemplos concretos de inference artifacts para risco de refactor e handoff de alto impacto
+- `iterative-maintenance/`
+  - mostra um loop de manutenção em três rodadas com regressão escalando o gate e gerando learning reutilizável
 
 ---
 
@@ -55,3 +57,4 @@ O alpha agora já cobre:
 - risk-to-gate posture examples
 - optional filesystem-context-routing experimentation
 - examples of structured risk inference for bounded semantic-risk scenarios
+- iterative maintenance examples where regression changes the round gate instead of remaining only a final observation
