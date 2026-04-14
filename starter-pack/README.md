@@ -121,4 +121,6 @@ If your constrained environment needs an explicit local trust and hosting postur
 If you want to run a bounded pilot in a constrained environment before broader rollout, read:
 
 - `docs/constrained-adoption-pilot.md`
+- `docs/constrained-pilot-review-checklist.md`
+- `starter-pack/templates/constrained-pilot-review-template.md`
 - `examples/pilot-conversion/constrained-adoption-bounded-validation.md`
