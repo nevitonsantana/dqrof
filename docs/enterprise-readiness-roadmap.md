@@ -209,6 +209,8 @@ This step now begins with:
 
 - `docs/constrained-adoption-pilot.md`
 - `examples/pilot-conversion/constrained-adoption-bounded-validation.md`
+- `docs/constrained-pilot-review-checklist.md`
+- `starter-pack/templates/constrained-pilot-review-template.md`
 
 ---
 
