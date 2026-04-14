@@ -211,12 +211,17 @@ It remains smaller than the core and should continue evolving proportionally.
 
 ### 1.1 — Enterprise-readiness / regulated adoption
 
-Planned backlog includes:
+Current low-regret hardening now begins with:
 
-- enterprise-readiness / regulated adoption roadmap
-- enterprise adoption guidance
-- restricted enterprise extension example
+- `docs/enterprise-readiness-roadmap.md`
+- `starter-pack/guides/enterprise-adoption-considerations.md`
+- `examples/project-extension/restricted-enterprise-context.md`
+
+Current backlog still includes:
+
 - stronger local trust-boundary posture for constrained environments
+- bounded pilot evidence from a constrained environment
+- eventual regulated-domain guidance only if later justified
 
 ### 1.2 — Pilot expansion / stronger real-world validation
 

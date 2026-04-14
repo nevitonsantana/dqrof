@@ -167,6 +167,8 @@ AletheIA 1.0 does **not** claim:
 
 Those remain part of the post-1.0 roadmap.
 
+The first post-1.0 track now starts with enterprise-oriented hardening for constrained and regulated adoption, but still without claiming enterprise-ready packaging by default.
+
 See also:
 
 - `docs/roadmap-alpha.md`
@@ -183,6 +185,7 @@ If this is your first time here, start with:
 2. `docs/00-overview.md`
 3. `docs/roadmap-alpha.md`
 4. `docs/release-1.0-readiness.md`
+5. `docs/enterprise-readiness-roadmap.md`
 5. `docs/architecture.md`
 6. `docs/governance.md`
 7. `docs/token-policy.md`
