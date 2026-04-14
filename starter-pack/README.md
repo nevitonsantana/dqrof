@@ -96,3 +96,12 @@ Taken together, the current starter-pack now covers both:
 If you want to test a filesystem-based context-routing pattern as a local experiment, read:
 
 - `starter-pack/experiments/workspace-context-routing/README.md`
+
+
+## 1.1 constrained adoption guidance
+
+If you are applying AletheIA in an environment with heavier approvals, stricter trust boundaries, or stronger local restrictions, read:
+
+- `docs/enterprise-readiness-roadmap.md`
+- `starter-pack/guides/enterprise-adoption-considerations.md`
+- `examples/project-extension/restricted-enterprise-context.md`
