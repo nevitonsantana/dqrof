@@ -87,6 +87,12 @@ Expected outputs:
 - **minimal slice telemetry model**
 - **Waste Heuristics guide**
 
+This phase now begins with:
+
+- `docs/context-resource-telemetry-spec.md`
+- `docs/slice-telemetry-model.md`
+- `docs/waste-heuristics.md`
+
 ### Phase B — progressive policy signals
 
 Turn existing guidance into light operational signals:
@@ -256,3 +262,14 @@ This track is working if AletheIA can eventually help teams answer questions suc
 - where is human review effort too high for the value returned?
 
 without becoming a heavyweight orchestration product.
+
+## Current 1.2 deliverables
+
+This track now begins with:
+
+- `docs/resource-aware-operations-roadmap.md`
+- `docs/context-resource-telemetry-spec.md`
+- `docs/slice-telemetry-model.md`
+- `docs/waste-heuristics.md`
+
+These are meant to establish the first observability spine before any adapter, benchmark, or learning-layer work is attempted.

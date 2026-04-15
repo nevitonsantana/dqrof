@@ -131,5 +131,8 @@ The next queued post-1.0 track is resource-aware operations.
 Read:
 
 - `docs/resource-aware-operations-roadmap.md`
+- `docs/context-resource-telemetry-spec.md`
+- `docs/slice-telemetry-model.md`
+- `docs/waste-heuristics.md`
 
 This future track should build on the current starter-pack surfaces rather than replace them.
