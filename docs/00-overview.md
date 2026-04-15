@@ -206,3 +206,11 @@ The active 1.1 track now also includes bounded pilot-evidence guidance for const
 - `docs/constrained-pilot-review-checklist.md`
 - `starter-pack/templates/constrained-pilot-review-template.md`
 - `examples/pilot-conversion/constrained-adoption-bounded-validation.md`
+
+The queued 1.2 track now begins with early observability surfaces through:
+
+- `docs/context-resource-telemetry-spec.md`
+- `docs/slice-telemetry-model.md`
+- `docs/waste-heuristics.md`
+
+These are meant to operationalize the next questions around context growth, retry waste, handoff inflation, and runtime fit before adapters or learning-layer work.

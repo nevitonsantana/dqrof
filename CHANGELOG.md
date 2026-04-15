@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- define the first 1.2 telemetry surfaces for resource-aware operations
+- start the 1.2 track with context/resource telemetry, slice telemetry, and waste heuristics docs
 - add a Resource-Aware Operations roadmap as the queued 1.2+ track
 - reposition the post-1.0 roadmap so 1.1 stays constrained-adoption hardening while 1.2 becomes operationalization
 - defer benchmark and learning ambitions into later 1.3+ / 1.4+ tracks instead of treating them as active work now

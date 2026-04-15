@@ -227,17 +227,19 @@ Current backlog still includes:
 
 This is the next queued operationalization track after the current 1.1 hardening pass.
 
-Planned backlog includes:
+The first docs-first 1.2 pass now begins with:
 
-- context and resource telemetry surfaces
-- lightweight waste heuristics and policy signals
+- `docs/resource-aware-operations-roadmap.md`
+- `docs/context-resource-telemetry-spec.md`
+- `docs/slice-telemetry-model.md`
+- `docs/waste-heuristics.md`
+
+Remaining backlog includes:
+
+- progressive policy signals built on those surfaces
 - minimal runtime adapter contract examples
 - advisory runtime / agent decision guidance
 - planning depth profiles and readiness gates only after observability is legible
-
-Anchor roadmap artifact:
-
-- `docs/resource-aware-operations-roadmap.md`
 
 ### 1.3+ — Benchmark and comparative evaluation
 
