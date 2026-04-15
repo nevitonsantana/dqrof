@@ -239,11 +239,15 @@ The next docs-first layer now also begins with:
 - `docs/progressive-policy-signals.md`
 - `examples/resource-aware-operations/policy-signals-review-example.md`
 
+The next docs-first layer now also begins with:
+
+- `docs/runtime-adapter-contract.md`
+- `examples/resource-aware-operations/minimal-runtime-adapter-example.md`
+
 Remaining backlog includes:
 
-- minimal runtime adapter contract examples
 - advisory runtime / agent decision guidance
-- planning depth profiles and readiness gates only after observability and signals are legible
+- planning depth profiles and readiness gates only after observability, signals, and the minimal adapter contract are legible
 
 ### 1.3+ — Benchmark and comparative evaluation
 

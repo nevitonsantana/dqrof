@@ -7,3 +7,4 @@ The first examples stay docs-first and intentionally small.
 ## Current examples
 
 - `policy-signals-review-example.md`
+- `minimal-runtime-adapter-example.md`
