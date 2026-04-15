@@ -228,3 +228,10 @@ The next docs-first 1.2 layer after policy signals is a minimal runtime adapter 
 - `examples/resource-aware-operations/minimal-runtime-adapter-example.md`
 
 This keeps the track provider-agnostic while making the future adapter surface more concrete without turning AletheIA into a full orchestration platform.
+
+The next docs-first 1.2 layer after the runtime adapter contract is advisory runtime/agent decision guidance through:
+
+- `docs/agent-runtime-decision-guide.md`
+- `examples/resource-aware-operations/agent-runtime-decision-example.md`
+
+This keeps the framework recommendation-oriented while making runtime fit more explicit across changing slice shapes.

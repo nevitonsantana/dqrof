@@ -136,6 +136,7 @@ Read:
 - `docs/waste-heuristics.md`
 - `docs/progressive-policy-signals.md`
 - `docs/runtime-adapter-contract.md`
+- `docs/agent-runtime-decision-guide.md`
 - `examples/resource-aware-operations/README.md`
 
 This future track should build on the current starter-pack surfaces rather than replace them.

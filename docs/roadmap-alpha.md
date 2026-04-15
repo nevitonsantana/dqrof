@@ -244,10 +244,14 @@ The next docs-first layer now also begins with:
 - `docs/runtime-adapter-contract.md`
 - `examples/resource-aware-operations/minimal-runtime-adapter-example.md`
 
+The next docs-first layer now also begins with:
+
+- `docs/agent-runtime-decision-guide.md`
+- `examples/resource-aware-operations/agent-runtime-decision-example.md`
+
 Remaining backlog includes:
 
-- advisory runtime / agent decision guidance
-- planning depth profiles and readiness gates only after observability, signals, and the minimal adapter contract are legible
+- planning depth profiles and readiness gates only after observability, signals, the minimal adapter contract, and the advisory fit layer are legible
 
 ### 1.3+ — Benchmark and comparative evaluation
 

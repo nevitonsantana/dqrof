@@ -162,6 +162,11 @@ Expected outputs:
 - **Agent / Runtime Decision Guide**
 - example decision matrix by task shape and risk posture
 
+This phase now begins with:
+
+- `docs/agent-runtime-decision-guide.md`
+- `examples/resource-aware-operations/agent-runtime-decision-example.md`
+
 ### Phase E — workflow guide and readiness layer
 
 Only after observability and adapter shape exist should AletheIA strengthen workflow guidance with:
@@ -285,5 +290,7 @@ This track now begins with:
 - `examples/resource-aware-operations/policy-signals-review-example.md`
 - `docs/runtime-adapter-contract.md`
 - `examples/resource-aware-operations/minimal-runtime-adapter-example.md`
+- `docs/agent-runtime-decision-guide.md`
+- `examples/resource-aware-operations/agent-runtime-decision-example.md`
 
-These are meant to establish the first observability spine, the first advisory signal layer, and a minimal runtime contract before any benchmark or learning-layer work is attempted.
+These are meant to establish the first observability spine, the first advisory signal layer, a minimal runtime contract, and an advisory fit layer before any benchmark or learning-layer work is attempted.

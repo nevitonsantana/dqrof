@@ -8,3 +8,4 @@ The first examples stay docs-first and intentionally small.
 
 - `policy-signals-review-example.md`
 - `minimal-runtime-adapter-example.md`
+- `agent-runtime-decision-example.md`
