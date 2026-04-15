@@ -140,6 +140,11 @@ Expected outputs:
 - one example adapter shape
 - one or two local runtime examples
 
+This phase now begins with:
+
+- `docs/runtime-adapter-contract.md`
+- `examples/resource-aware-operations/minimal-runtime-adapter-example.md`
+
 ### Phase D — advisory multi-agent decision layer
 
 The framework may then publish an advisory layer for choosing between agents and runtimes.
@@ -278,5 +283,7 @@ This track now begins with:
 - `docs/waste-heuristics.md`
 - `docs/progressive-policy-signals.md`
 - `examples/resource-aware-operations/policy-signals-review-example.md`
+- `docs/runtime-adapter-contract.md`
+- `examples/resource-aware-operations/minimal-runtime-adapter-example.md`
 
-These are meant to establish the first observability spine and the first advisory signal layer before any adapter, benchmark, or learning-layer work is attempted.
+These are meant to establish the first observability spine, the first advisory signal layer, and a minimal runtime contract before any benchmark or learning-layer work is attempted.

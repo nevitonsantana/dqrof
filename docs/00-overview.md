@@ -221,3 +221,10 @@ The next docs-first 1.2 layer after telemetry is progressive policy signals thro
 - `examples/resource-aware-operations/policy-signals-review-example.md`
 
 This keeps the framework in an advisory-first posture while making operational drift more reviewable.
+
+The next docs-first 1.2 layer after policy signals is a minimal runtime adapter contract through:
+
+- `docs/runtime-adapter-contract.md`
+- `examples/resource-aware-operations/minimal-runtime-adapter-example.md`
+
+This keeps the track provider-agnostic while making the future adapter surface more concrete without turning AletheIA into a full orchestration platform.
