@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- start the next 1.2 layer with advisory runtime/agent decision guidance and a lightweight example
 - start the next 1.2 layer with a minimal runtime adapter contract and lightweight example
 - start the next 1.2 layer with progressive policy signals and a lightweight review example
 - define the first 1.2 telemetry surfaces for resource-aware operations
