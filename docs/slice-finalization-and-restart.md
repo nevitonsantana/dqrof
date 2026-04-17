@@ -200,6 +200,22 @@ AletheIA should require the **meaning** of governing-context continuity, not one
 
 ---
 
+## Start-next-issue clean-thread signal
+
+When the finalization outcome is `recommend-clean-restart` and the next step is a **new issue** or new bounded slice, the framework should make one extra thing explicit:
+
+- the operator should signal that the next issue must start in a **fresh thread / clean session**
+- if the runtime offers a local clear-thread action, it should be used before the next issue begins
+- if the runtime offers no such action, the operator should still abandon the current thread and start a new one manually
+
+This signal matters because a team may agree that restart is healthier and still begin the next issue inside the same stale thread by habit.
+
+A simple operator note is enough:
+
+> Before starting the next issue, clear the current thread or open a fresh one. Resume only from the restart package.
+
+---
+
 ## Runtime boundary
 
 AletheIA does **not** depend on a runtime command such as `/clear` or `/new`.

@@ -68,6 +68,7 @@ Minimum operator inputs:
 Purpose:
 
 - start a fresh session only after the slice is already closed cleanly
+- explicitly signal that the **next issue must not start in the current stale thread**
 
 Allowed only when:
 
@@ -79,6 +80,7 @@ Meaning:
   - the restart package
   - the resume entrypoint
   - the minimal governing-context refs
+- if the next task is a new issue, the operator should treat thread clearing / fresh-session start as a **precondition** before claiming that next issue inside the runtime
 
 This command must **never** imply that AletheIA controls:
 
@@ -155,7 +157,8 @@ This fallback is equivalent in meaning to the slash-command variant.
 1. `/finalize-slice`
 2. inspect the outcome
 3. if `recommend-clean-restart`, run `/clean-restart`
-4. begin the next slice with `/resume-from-package`
+4. **before starting a new issue, clear the current thread or open a fresh one**
+5. begin the next slice with `/resume-from-package`
 
 If the outcome is:
 

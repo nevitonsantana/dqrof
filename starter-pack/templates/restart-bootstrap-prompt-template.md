@@ -2,6 +2,8 @@
 
 Use this template after a slice closes with `recommend-clean-restart`.
 
+Use only after the previous thread has already been abandoned for the new issue or slice.
+
 The prompt should rely on:
 
 - the restart package
