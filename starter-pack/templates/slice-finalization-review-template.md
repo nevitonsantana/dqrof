@@ -12,6 +12,8 @@
 
 - Finalization outcome: `continue-in-session | recommend-clean-restart | review-required | not-ready`
 - Reason:
+- Clean-thread signal before next issue: `not_needed | recommended | required`
+- Operator note if clean thread is required:
 
 ## AI Fatigue Read
 
@@ -26,6 +28,8 @@
 
 ## Validation and continuity notes
 
+- Next issue / next bounded slice starts in fresh thread: `yes | no`
+- Local clear-thread action available: `yes | no`
 - What was delivered:
 - Evidence:
 - Known constraints:

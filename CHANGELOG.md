@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- clarify that `recommend-clean-restart` should explicitly signal a fresh thread / local clear-thread action before starting a new issue
 - add a project-local Constitution context guide clarifying how stronger governing-context bootstraps can support clean restart without becoming framework core
 
 - add docs-first clean-restart command adapters and a restart bootstrap prompt template on top of slice finalization guidance
