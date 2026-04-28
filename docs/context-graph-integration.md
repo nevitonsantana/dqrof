@@ -88,6 +88,26 @@ Record graph use as exploration events. Record the delta between files suggested
 
 ---
 
+## Known limitation: Next.js and design systems
+
+The `code-review-graph` evaluation benchmark reports **F1 = 0.041** for Next.js projects —
+nearly zero impact accuracy. Controlled tests on the Crisis Monitor confirmed: for UI
+components and CSS tokens, the 2-hop graph reaches virtually the entire project (73–97%
+false positives) because connection density in a shared design system makes any node
+reach the whole project within 2 hops.
+
+For Next.js projects, the only operations with demonstrated value are:
+- `detect-changes` to identify test gaps in large PR reviews
+- `wiki` and `communities` for structural onboarding and overview
+
+Impact radius, minimal context, and review context are not recommended for Next.js
+projects with shared design systems until the graph supports configurable depth and
+semantic filters by node type.
+
+See `docs/context-graph-decision.md` for the full decision record.
+
+---
+
 ## Risks
 
 **False coverage confidence.** A large blast radius from the graph may feel like complete risk mapping. It is not. The graph captures structural connections, not semantic intent or test behavior.

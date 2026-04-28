@@ -126,6 +126,8 @@ Skip the graph when:
 - the slice is already in execution and a graph query would interrupt momentum without adding new information
 - the task is governance, product, or communication — not code structure
 - you already ran `impact-radius` this round and the question has not changed
+- the project is **Next.js with a shared design system** — F1=0.041 for impact accuracy; 2-hop traversal reaches the entire project for any UI file (73–97% false positives observed in controlled tests)
+- the change touches **CSS global or design tokens** — blast radius is always maximal and does not discriminate which consumers were actually affected
 
 The graph is not a mandatory step. It is a conditional tool.
 
